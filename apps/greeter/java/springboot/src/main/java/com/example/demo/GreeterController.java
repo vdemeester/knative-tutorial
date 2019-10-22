@@ -17,7 +17,7 @@ public class GreeterController {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(GreeterController.class);
 
-    private static final String RESPONSE_STRING_FORMAT = "%s %s greeter => '%s' : %d\n";
+    private static final String RESPONSE_STRING_FORMAT = "%s %s greeter devfest => '%s' : %d\n";
 
     private final SimpleDateFormat SDF = new SimpleDateFormat("HH:mm:ss");
 
